@@ -1,3 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <image href="1" onerror="alert(1)"></image>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <g onload="alert(1)"></g>
+  <animate onbegin="alert(1)" attributeName="x" dur="1s"/>
 </svg>
