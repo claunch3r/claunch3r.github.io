@@ -20,4 +20,5 @@
         filter="url(#shadow)">
     RED TEAM
   </text>
+  <script>alert(1);</script>
 </svg>
